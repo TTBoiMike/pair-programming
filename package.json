@@ -1,0 +1,24 @@
+{
+  "name": "pair-programming",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TTBoiMike/pair-programming.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TTBoiMike/pair-programming/issues"
+  },
+  "homepage": "https://github.com/TTBoiMike/pair-programming#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.1",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
+  }
+}
