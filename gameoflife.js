@@ -6,6 +6,23 @@ function checkCells(n) {
     }
 }
 
+ function checkCell(state, n) {
+     if (state === 'live') {
+        if(n < 2 || n > 3) {
+             return false;
+        } else if (n === 2 || n === 3) {
+             return true;
+         }
+     } else if (state === 'dead') {
+         if(n === 3) {
+           return true;
+        } else {
+            return false;
+        }
+     }
+ }
+
+
 
 // function checkCells(state, n) {
 //     if (state === 'live') {
@@ -24,3 +41,4 @@ function checkCells(n) {
 // }
 
 export{checkCells};
+export{checkCell};
